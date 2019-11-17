@@ -12,5 +12,6 @@ namespace Locadora.Models
         public int Duracao { get; set; }
         public int Ano { get; set; }
         public Categoria Categoria { get; set; }
+        public Produtora Produtora { get; set; }
     }
 }

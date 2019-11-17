@@ -9,6 +9,6 @@ namespace Locadora.Models
     {
         public int Id { get; set; }
         public String nome { get; set; }
-        public List<Filme> Filmes { get; set; }
+        public ICollection<Filme> Filmes { get; set; } = new List<Filme>();
     }
 }
